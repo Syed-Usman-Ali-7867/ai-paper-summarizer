@@ -1,0 +1,40 @@
+ body {
+            background: linear-gradient(135deg, #1a1a40, #4b4b7c);
+            color: white;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: 0;
+        }
+        .home-container {
+            margin-bottom: 200px;
+            max-width: 900px;
+            padding: 40px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 20px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+        }
+        .btn-custom {
+            padding: 10px 30px;
+            font-size: 1.2rem;
+            background-color: #00bfff;
+            border: none;
+            color: white;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+        }
+        .btn-custom:hover {
+            background-color: #007bb5;
+            transform: scale(1.1);
+        }
+        .home-container p{
+            font-family: "Bodoni MT";
+            font-size: 28px;
+        }
+        .home-container h1{
+            font-family: "Bodoni MT";
+            font-size: 40px;
+            color: cyan;
+        }

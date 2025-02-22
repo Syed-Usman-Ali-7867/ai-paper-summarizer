@@ -1,0 +1,83 @@
+
+body {
+    background: linear-gradient(135deg, #1a1a40, #4b4b7c);
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding-top: 5%;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    animation: fadeIn 0.5s ease;
+}
+
+input[type="text"], input[type="file"] {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+button {
+    border-radius: 10px;
+    transition: all 0.3s ease;
+
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.6);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Custom card styling for the summary */
+.card-header {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    padding: 10px 0;
+}
+
+.card-body p {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Stylish button */
+.btn-success {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #28a745;
+    transform: scale(1.05);
+}
+
+/* Container max-width for better responsiveness */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Header gradient background */
+.card-header {
+    background-color: rgba(0, 0, 0, 0.7);
+    /*color: #050801;*/
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 15px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 35px #03e9f4;
+}
